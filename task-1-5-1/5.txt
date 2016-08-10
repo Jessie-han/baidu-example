@@ -1,0 +1,5 @@
+1.右侧部分 float：right
+2.左侧 margin-right  使之保持与浏览器窗口变化同步自适应变化
+3.不固定宽度
+4.设置display:inline-blick
+5.设置min-width 保证极端情况

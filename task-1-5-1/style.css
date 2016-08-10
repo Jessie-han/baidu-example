@@ -1,0 +1,192 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	background: #DEDEDE;
+	min-width: 800px;  /*极端情况*/
+}
+/*头部导航*/
+#header{
+	height: 60px;
+	background: #333;
+	width: 100%;
+}
+.header-logo{
+	padding-left: 20px;
+	float: left;
+}
+
+nav{
+	float: right;
+}
+nav ul li{
+	float: left;
+	width: 100px;
+	line-height: 60px;
+}
+nav ul li a:link{
+	color: #FBF9F9;
+}
+nav ul li a:visited{
+	color: #FBF9F9;
+}
+nav ul li a:hover{
+	color: #e6dddc;
+}
+
+
+/*内容区*/
+#content{
+	background: #DEDEDE;
+	padding: 20px;
+	margin-right: 340px;   /*左侧保持与浏览器窗口变化同步自适应变化*/
+}
+
+article,figure{
+	border: 1px solid #CDCDCD;
+	background: #FFFFFF;
+	padding: 20px 20px;
+	margin-bottom: 20px;
+	box-shadow: 1px 1px #848484;
+
+}
+article h4{
+	color:#6B696A;
+	padding: 10px 0px;
+}
+article span{
+	font-size: 12px;
+	color:#bab9bb;
+}
+article p{
+	font-size: 14px;
+	line-height: 24px;
+	margin: 10px 0 0 0;
+	text-indent: 2em;
+}
+article p a{
+	text-decoration: underline;
+}
+article img{
+	
+	margin-top: 15px;
+
+}
+
+.article2 img{
+	margin: 15px 0;
+}
+.article2 ul li{
+	font-size: 14px;
+	list-style: none;
+	padding: 5px;
+	text-indent: 2em;
+}
+
+figure{
+	border:1px solid #DEDEDE;
+	text-align: center;
+	padding-top: 10px;
+	
+	margin:20px 40px;
+	display: inline-block;
+}
+figure img{
+	width:100px;
+	margin: 0 auto;}
+
+.article3 ol,.article3 p,.article3 thead{
+	font-size: 16px;
+	font-family: "黑体";
+}
+.article3 ol{
+	margin: 10px 40px;
+}
+.article3 ol li{
+	line-height: 24px;
+}
+.article3 p{
+	text-indent: 0em;
+}
+.article3 table{
+	border:1px solid #DEDEDE;
+	border-collapse: collapse;
+	width: 99%;
+}
+.article3 table thead{
+	background: #333;
+	color: #FFFFFF;
+}
+.article3 table td,.article3 table th{
+	border:solid #DEDEDE;
+	border-width: 0px 1px 1px 0px;
+	height: 26px;
+	line-height: 26px;
+}
+.article3 table td{
+	font-size: 14px;
+}
+.article3 table a{
+	text-decoration:underline;
+}
+.article3 tfoot{
+	background: #ccc;
+}
+
+
+.aside{
+	padding: 10px 20px;
+	width: 280px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;    /* 页面右侧部分为固定宽度*/
+}
+aside form{
+	width: 95%;
+	margin: 0 auto;
+}
+aside form label{
+	font-size: 12px;
+	text-align: right;
+
+}
+aside form input{
+	line-height: 24px;
+	padding-left: 2px;
+	margin: 5px;
+
+}
+aside form span{
+	margin-left:100px;
+}
+aside form textarea{
+	/*width: 674px;*/
+	height: 100px;
+	}
+
+
+aside button{
+	background: #3355d0;
+	border-radius: 15px;
+	border:0;
+	width: 99%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+footer{
+	text-align: center;
+	background: #000;
+	color: #FFFFFF;
+	width: 100%;
+	height:68px;
+	line-height: 69px;
+	font-size: 18px;
+}

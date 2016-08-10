@@ -1,0 +1,21 @@
+一、添加HTML5新标签：
+1.<header></header> 			定义文档的页眉
+2.<nav></nav>				定义导航链接的部分
+3.<article></article>			规定独立的自包含内容；潜在来源：论坛帖子、报纸文章、博客条目、用户评论。
+4.<figure></figure>			规定独立的流内容（图像、图表、照片、代码等；用<figcaption>位figure添加标题
+5.<figcaption></figcaption>             应被置于“figure”元素的第一个或最后一个子元素的位置
+6.<aside></aside>     			定义其所处位置之外的内容，可定义侧栏
+
+二、table表格
+1.<thead></thead> 定义表头，内部必须包含<tr>  <th></th>包含表头信息
+2.<tbody></tbody>
+3.<tfoot></tfoot>
+
+三、
+
+在一个页面上画一个按钮，有四种办法：
+
+    1.<input type="button" /> 这就是一个按钮。如果你不写javascript 的话，按下去什么也不会发生。
+    2.<input type="submit" /> 这样的按钮用户点击之后会自动提交 form，除非你写了javascript 阻止它。
+    3.<button> 这个按钮放在 form 中也会点击自动提交，比前两个的优点是按钮的内容不光可以有文字，还可以有图片等多媒体内容。（当然，前两个用图片背景也可以做到）。它的缺点是不同的浏览器得到的 value 值不同；Internet Explorer 的默认类型是 "button"，而其他浏览器中（包括 W3C 规范）的默认值是 "submit"。可能还有其他的浏览器兼容问题。
+    4.其他标签，例如 a, img, span, div，然后用图片把它伪装成一个按钮。
